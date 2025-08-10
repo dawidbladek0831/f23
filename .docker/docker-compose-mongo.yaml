@@ -1,0 +1,18 @@
+services:
+  mongo:
+    restart: unless-stopped
+    image: amd64/mongo:8.0-rc
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=password
+    ports:
+      - 27017:27017
+  mongo-express:
+    restart: unless-stopped
+    image: mongo-express
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongo
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+    ports:
+      - 9001:8081
