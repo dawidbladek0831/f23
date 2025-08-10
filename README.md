@@ -25,7 +25,7 @@ System is composed of one services:
 ## References & Inspirations
 The following materials provided inspiration during the design of the system. They include both examples of architectural solutions and discussions of approaches to problems similar to those that the Presence system solves.
 
-[1] https://www.hellointerview.com/learn/system-design/problem-breakdowns/fb-live-comments, 6.10.2025
-[2] https://systemdesign.one/real-time-presence-platform-system-design, 6.10.2025
-[3] https://systemdesign.one/live-comment-system-design, 6.10.2025
-[4] Alex XU, System design interview, 2020
+- [1] https://www.hellointerview.com/learn/system-design/problem-breakdowns/fb-live-comments, 6.10.2025
+- [2] https://systemdesign.one/real-time-presence-platform-system-design, 6.10.2025
+- [3] https://systemdesign.one/live-comment-system-design, 6.10.2025
+- [4] Alex XU, System design interview, 2020
